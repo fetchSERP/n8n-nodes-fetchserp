@@ -1,19 +1,24 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "n8n-nodes-fetchserp",
+  "version": "0.1.1",
+  "description": "FetchSERP community node for n8n. Provides SEO, SERP, scraping, and domain intelligence operations via the FetchSERP API.",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "fetchserp",
+    "seo",
+    "serp",
+    "scraping",
+    "n8n"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/fetchSERP/n8n-nodes-fetchserp#readme",
   "author": {
-    "name": "",
+    "name": "Olivier Kruger",
     "email": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/fetchSERP/n8n-nodes-fetchserp.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -34,11 +39,13 @@
     "n8nNodesApiVersion": 1,
     "credentials": [
       "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/HttpBinApi.credentials.js",
+      "dist/credentials/FetchSerpApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/FetchSerp/FetchSerp.node.js"
     ]
   },
   "devDependencies": {
