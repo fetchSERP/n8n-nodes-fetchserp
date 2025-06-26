@@ -87,4 +87,4 @@ After execution the node returns the raw JSON from FetchSERP, so you can continu
 * 0.1.1 — initial public release
 
 ---
-Made with ❤️ by Olivier Kruger — PRs & issues welcome.
+Made with ❤️ by Olivier — PRs & issues welcome.
