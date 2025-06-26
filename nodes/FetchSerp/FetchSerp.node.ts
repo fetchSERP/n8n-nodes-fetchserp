@@ -148,7 +148,7 @@ export class FetchSerp implements INodeType {
 
 			const requestOptions: any = {
 				method: config.method,
-				uri: `${baseURL}${config.endpoint}`,
+				url: `${baseURL}${config.endpoint}`,
 				qs: config.method === 'GET' ? params : undefined,
 				body: config.method === 'POST' ? body : undefined,
 				headers: {
