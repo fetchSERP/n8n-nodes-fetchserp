@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-fetchserp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FetchSERP community node for n8n. Provides SEO, SERP, scraping, and domain intelligence operations via the FetchSERP API.",
   "keywords": [
     "n8n-community-node-package",
